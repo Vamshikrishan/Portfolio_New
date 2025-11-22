@@ -88,7 +88,7 @@ cards.forEach(card => {
 });
 
 const typingElement = document.querySelector('.info-home h3'); 
-const words = ["Frontend Developer", "UI/UX Designer", "Web Enthusiast", "React Developer"];
+const words = ["Frontend Developer", "Java Developer", "Web Enthusiast", "React Developer"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -116,6 +116,34 @@ function type() {
 }
 
 document.addEventListener('DOMContentLoaded', type);
+
+  // Safe download: verify resume exists before starting download
+  document.addEventListener('DOMContentLoaded', () => {
+    const downloadLink = document.getElementById('download-cv');
+    if (!downloadLink) return;
+
+    downloadLink.addEventListener('click', async (e) => {
+      // let the browser handle if user uses right-click > Save as
+      if (e.button !== 0) return;
+      e.preventDefault();
+      const href = downloadLink.getAttribute('href');
+      try {
+        const resp = await fetch(href, { method: 'HEAD' });
+        if (!resp.ok) throw new Error('File not found');
+
+        // create a temporary anchor to trigger download (keeps original behavior)
+        const a = document.createElement('a');
+        a.href = href;
+        a.download = downloadLink.getAttribute('download') || '';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      } catch (err) {
+        alert('Resume file not found or cannot be opened.\nPlease add `Web_Resume.pdf` to the `Portfolio` folder.');
+        console.error('Download error:', err);
+      }
+    });
+  });
 
 document.addEventListener("DOMContentLoaded", () => {
   const loadingText = document.getElementById("loading-text");
