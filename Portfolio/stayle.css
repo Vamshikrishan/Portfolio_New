@@ -3,6 +3,20 @@
   padding: 0;
 }
 
+/* Remove underline on all links by default (keeps colors intact).
+   If you prefer this only for specific sections, replace `a` with a
+   more specific selector like `.content a` or `.footer a`. */
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -133,6 +147,7 @@ header {
   padding: 10px 10px;
   cursor: pointer;
   transition: 0.4s;
+  
 }
 
 .btn-home2:hover{
@@ -170,6 +185,10 @@ hr {
   color: #000000;
 }
 
+.images1 {
+  border-radius: 10px;
+  height: 460px;
+}
 .home img {
   width: 400px;
   border-radius: 10px;
