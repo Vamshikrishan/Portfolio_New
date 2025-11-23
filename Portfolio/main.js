@@ -173,3 +173,42 @@ document.addEventListener("DOMContentLoaded", () => {
     mainPage.classList.add("visible");
   }, 4000);
 });
+
+// Contact form submission via FormSubmit (AJAX)
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contact-form');
+  if (!form) return;
+  const feedback = document.getElementById('contact-feedback');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    feedback.textContent = 'Sending...';
+    feedback.style.color = '#333';
+
+    try {
+      const formData = new FormData(form);
+      const resp = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (!resp.ok) throw new Error('Network response was not ok');
+      const data = await resp.json();
+      if (data.success === 'true' || resp.status === 200) {
+        feedback.textContent = 'Message sent — thank you!';
+        feedback.style.color = 'green';
+        form.reset();
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (err) {
+      feedback.textContent = 'Could not send message. Please try again or email vamship250106@gmail.com directly.';
+      feedback.style.color = 'red';
+      console.error('Contact form error:', err);
+    }
+  });
+});

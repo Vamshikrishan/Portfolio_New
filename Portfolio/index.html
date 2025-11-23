@@ -44,7 +44,7 @@
                 </li>
                 <li>
                     <i class="fa-solid fa-code"></i>
-                    <a href="#services">services</a>
+                    <a href="#services">Coding Profile</a>
                 </li>
                 <li>
                     <i class="fa-regular fa-envelope"></i>
@@ -77,20 +77,31 @@
                     <a href="https://drive.google.com/file/d/17TGzKtny91lkKhY2wg1J7L-h6anzR5aQ/view?usp=drive_link" id="download-cv" class="btn-home2" download aria-label="Download CV"><i class="fa-solid fa-download"></i> Download CV</a>
                 </div>
                 <div class="hhr">
-                    <hr>
+            <div class="contact-form slide-in-right">
+              <!-- Contact form submits via FormSubmit (no server required). -->
+              <form id="contact-form" action="https://formsubmit.co/ajax/vamship250106@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New message from portfolio site">
+                <input type="hidden" name="_captcha" value="false">
+
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Your name">
                 </div>
-                <div class="follow">
-                    <p class="followw">Follow me:</p>
-                    <ul>
-                        <li><a href="https://github.com/Vamshikrishan" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://discord.com/users/1304009698894413828" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/vamshi-krishna-a4ba0a350/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="https://www.instagram.com/i_am_vamshi_052/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required placeholder="you@example.com">
                 </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="6" required placeholder="Write your message..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">Send Message</button>
+                <p id="contact-feedback" aria-live="polite" style="margin-top:12px"></p>
+              </form>
             </div>
-          </div>
-          <img src="images/img.png" alt="" class="images1">
         </div>
     </section>
     <!-- fine home  -->
@@ -166,7 +177,7 @@
     </div>
 
     <div class="project-card">
-      <img src="images/port1.png" alt="Portfolio Website">
+      <img src="images/portfilo.png" alt="Portfolio Website">
       <h3>Portfolio Website</h3>
       <p>Personal portfolio to showcase my design and coding projects.</p>
       <div class="skills">
@@ -181,127 +192,125 @@
     </div>
 
     <div class="project-card">
-      <img src="images/Weather Forecast Dashboard.jpg" alt="Weather App">
-      <h3>Weather App</h3>
-      <p>Responsive app showing real-time weather data using API integration.</p>
+      <img src="images/Resume_builder.png" alt="Resume Builder">
+      <h3>Resume Builder</h3>
+      <p>Smart resume builder with customizable templates, live preview, and instant PDF export.</p>
       <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">API</a>
+        <a href="https://github.com/Vamshikrishan/Resume_Builder/blob/main/index.html">HTML</a>
+        <a href="https://github.com/Vamshikrishan/Resume_Builder/blob/main/style.css">CSS</a>
+        <a href="https://github.com/Vamshikrishan/Resume_Builder/blob/main/script.js">JavaScript</a>
       </div>
       <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/Vamshikrishan/Resume_Builder" class="btn"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://vamshikrishan.github.io/Resume_Builder/" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/respe_card.png" alt="Recipe Card Website">
+      <h3>Recipe Card Website</h3>
+      <p>Modern recipe card with ingredient listing, step-by-step instructions, and a clean interactive layout.</p>
+      <div class="skills">
+        <a href="https://github.com/Vamshikrishan/Recipe_Card/blob/main/index.html">HTML</a>
+        <a href="https://github.com/Vamshikrishan/Recipe_Card/blob/main/styles.css">Tailwind CSS</a>
+        <a href="https://github.com/Vamshikrishan/Recipe_Card/blob/main/script.js">JavaScript</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/Vamshikrishan/Recipe_Card" class="btn"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://vamshikrishan.github.io/Recipe_Card/" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/plant_diseas.png" alt="Plant Disease Detection">
+      <h3>Plant Disease Detection Project</h3>
+      <p>AI-powered plant disease detector using CNN with real-time image analysis and accurate classification.</p>
+      <div class="skills">
+        <a href="https://github.com/Vamshikrishan/plant_disease_prediction/blob/main/plant-disease-prediction-cnn-deep-leanring-project-main/model_training_notebook/Plant_Disease_Prediction_CNN_Image_Classifier.ipynb">Python</a>
+        <a href="https://github.com/Vamshikrishan/plant_disease_prediction/blob/main/plant-disease-prediction-cnn-deep-leanring-project-main/app/main.py">Streamlet</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/Vamshikrishan/plant_disease_prediction" class="btn"><i class="fab fa-github"></i> GitHub</a>
         <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
       </div>
     </div>
 
     <div class="project-card">
-      <img src="images/WordPress dashboard design concept.jpg" alt="Blog Website">
-      <h3>Blog Website</h3>
-      <p>Clean and simple blogging platform with markdown support.</p>
+      <img src="images/phishing_URL.png" alt="Phishing URL Detection">
+      <h3>Phishing URL Detection</h3>
+      <p>Machine learning based phishing URL detector with real-time analysis and accurate threat classification.</p>
       <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">Tailwind</a>
-        <a href="#">JavaScript</a>
+        <a href="https://github.com/Vamshikrishan/Phishing-URL-Detection-master/blob/main/Phishing-URL-Detection-master/Phishing%20URL%20Detection.ipynb">Python</a>
+        <a href="https://github.com/Vamshikrishan/Phishing-URL-Detection-master/blob/main/Phishing-URL-Detection-master/app.py">Streamlet</a>
       </div>
       <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="images/Game Dashboard Design.jpg" alt="Game Landing Page">
-      <h3>Game Landing Page</h3>
-      <p>Landing page for a game with animations and parallax effects.</p>
-      <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">GSAP</a>
-      </div>
-      <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="images/Task manager app.jpg" alt="Task Manager">
-      <h3>Task Manager</h3>
-      <p>Task tracking web app with CRUD features and clean UI.</p>
-      <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JS</a>
-      </div>
-      <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/Vamshikrishan/Phishing-URL-Detection-master" class="btn"><i class="fab fa-github"></i> GitHub</a>
         <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
       </div>
     </div>
   </div>
      </section>
      <section class="services" id="services">
-        <p>SERVICES</p>
-        <h1>Our Features & Services</h1>
+        <p>CODING PROFILE</p>
+        <h1>My Coding Profiles & Achievements</h1>
         <hr>
         <div class="services-container">
 
     <div class="service-card">
-      <img src="images/web.svg" alt="Web Development">
-      <h3>Web Development</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+      <a href="https://leetcode.com/u/GVUkJbZdCi/" target="_blank"><img src="images/LeetCode.svg" alt="LeetCode"></a>
+      <a href="https://leetcode.com/u/GVUkJbZdCi/" target="_blank"><h3>LeetCode</h3></a>
+      <p>Sharpening DSA and interview skills through focused algorithm challenges.</p>
     </div>
 
     <div class="service-card">
-      <img src="images/app.svg" alt="App Development">
-      <h3>App Development</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+      <a href="https://www.hackerrank.com/profile/vamship2501061" target="_blank"><img src="images/hackerrank.svg" alt="Hacker Rank"></a>
+      <a href="https://www.hackerrank.com/profile/vamship2501061" target="_blank"><h3>Hacker Rank</h3></a>
+      <p>Hands-on coding practice and domain challenges with certification-ready tasks.</p>
     </div>
 
     <div class="service-card">
-      <img src="images/dm.svg" alt="Digital Marketing">
-      <h3>Digital Marketing</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+      <a href="https://www.codechef.com/users/adapt_pet_11" target="_blank"><img src="images/CodeChef.svg" alt="CodeChef"></a>
+      <a href="https://www.codechef.com/users/adapt_pet_11" target="_blank"><h3>CodeChef</h3></a>
+      <p>Competing in long/short contests to boost speed, strategy, and ranking.</p>
     </div>
 
     <div class="service-card">
-      <img src="images/seo.svg" alt="Email Marketing">
-      <h3>Email Marketing</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+      <a href="https://codeforces.com/profile/Vamship2516" target="_blank"><img src="images/Codeforces.png" alt="Codeforces"></a>
+      <a href="https://codeforces.com/profile/Vamship2516" target="_blank"><h3>Codeforces</h3></a>
+      <p>Timed contest experience for advanced problem-solving and algorithmic agility.</p>
     </div>
 
   </div>
      </section>
      <section class="contact" id="contact">
         <p>CONTACT</p>
-        <h1>Get in Touch with Us</h1>
+        <h1>Get in Touch with Me</h1>
         <div class="contact-content">
       <div class="contact-info slide-in-left">
         <p>I'm always open to discuss exciting projects and new opportunities. Let's collaborate!</p>
         <div class="contact-details">
           <div class="contact-item">
             <i class="fa-solid fa-envelope"></i>
-            <span>amine@example.com</span>
+            <span>vamship250106@gmail.com</span>
           </div>
           <div class="contact-item">
             <i class="fa-solid fa-phone"></i>
-            <span>+213 00 11 22 33 44</span>
+            <span>+91 91828 54454</span>
           </div>
           <div class="contact-item">
             <i class="fa-solid fa-location-dot"></i>
-            <span>Algeria, Boumerdes</span>
+            <span>Hydrabad, Telangana</span>
           </div>
         </div>
 
         <div class="social-links">
-          <a href="https://github.com/Saboo24" class="social-link" target="_blank">
+          <a href="https://github.com/Vamshikrishan" class="social-link" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" class="social-link" target="_blank">
+          <a href="https://www.linkedin.com/in/vamshi-krishna-a4ba0a350/" class="social-link" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://wa.me/213554139526" class="social-link" target="_blank">
+          <a href="https://wa.me/9182854454" class="social-link" target="_blank">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
         </div>
@@ -325,7 +334,7 @@
      </section>
      <footer class="footer">
   <div class="footer-container">
-    <h2 class="footer-logo">Amine</h2>
+    <h2 class="footer-logo">P Vamshi Krishan</h2>
     <ul class="footer-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -334,11 +343,11 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="footer-social">
-      <a href="https://github.com/Saboo24" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://wa.me/213554139526" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://github.com/Vamshikrishan" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/vamshi-krishna-a4ba0a350/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://wa.me/9182854454" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
-    <p class="footer-copy">&copy; 2025 Amine. All Rights Reserved.</p>
+    <p class="footer-copy">&copy; 2025 P Vamshi Krishna. All Rights Reserved.</p>
   </div>
 </footer>
 
