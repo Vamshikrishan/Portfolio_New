@@ -4,9 +4,13 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 > Author: Vamshikrishan  
 > Repository: Vamshikrishan/Portfolio_New
-> Live: funny-starlight-5b99b0.netlify.app
+
+---
+
+Live link: [live](funny-starlight-5b99b0.netlify.app)
 
 ![Preview Screenshot](Portfolio/images/portfilo.png)
+
 ---
 
 ## Table of Contents
