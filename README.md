@@ -1,9 +1,10 @@
 # Portfolio_New
 
-A clean, responsive personal portfolio website to showcase projects, skills, experience, and contact information. This repository contains the source for my portfolio site — a simple, friendly, and easy-to-maintain place to present work to potential employers or collaborators.
+A clean, responsive personal portfolio website to showcase projects, skills, experience, and contact information. This repository contains the source for my portfolio site, a simple, friendly, and easy-to-maintain place to present work to potential employers or collaborators.
 
 > Author: Vamshikrishan  
 > Repository: Vamshikrishan/Portfolio_New
+> Like: funny-starlight-5b99b0.netlify.app
 
 ---
 
@@ -27,7 +28,7 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 ## About
 
-This project is a personal portfolio website intended to highlight projects, skills, and background. It focuses on clarity, accessibility, and responsiveness so it looks great on desktop and mobile devices.
+This project is a personal portfolio website intended to highlight projects, skills, and background. It focuses on clarity, accessibility, and responsiveness, so it looks great on desktop and mobile devices.
 
 ---
 
@@ -62,7 +63,7 @@ These instructions will get a copy of the project running on your local machine 
 
 ### Prerequisites
 
-No special prerequisites are required for a static site. For a better development experience you may want:
+No special prerequisites are required for a static site. For a better development experience, you may want:
 
 - A modern browser (Chrome, Firefox, Edge, Safari)
 - A code editor (VS Code, Sublime, Vim)
@@ -88,7 +89,7 @@ Option B — Recommended (simple local server):
 
 A typical project layout (update this to match your repository):
 
-- index.html — landing / home page
+- index.html — landing/home page
 - /assets
   - /css — stylesheets
   - /js — JavaScript files
@@ -146,7 +147,7 @@ This project can be licensed as you prefer. A common choice is the MIT License. 
 Created by Vamshikrishan — feel free to reach out:
 
 - GitHub: https://github.com/Vamshikrishan
-- Email: (add your email here)
+- Email: vamship250106@gmail.com
 
 ---
 
@@ -157,9 +158,3 @@ Created by Vamshikrishan — feel free to reach out:
 - Images or illustrations (mention sources or licenses)
 
 ---
-
-If you'd like, I can:
-- Inspect your repository and generate a README tailored to the exact files and technologies found in the codebase.
-- Add a live demo badge, a screenshot, or a ready-to-use GitHub Pages deployment guide specific to the repo contents.
-
-Tell me if you want me to auto-detect the project's files and update this README to reflect the real structure and tech stack.
