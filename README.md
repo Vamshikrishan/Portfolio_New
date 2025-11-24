@@ -7,7 +7,9 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 ---
 
-Live link: [live](funny-starlight-5b99b0.netlify.app)
+## Live link
+
+[funny-starlight-5b99b0.netlify.app](funny-starlight-5b99b0.netlify.app)
 
 ![Preview Screenshot](Portfolio/images/portfilo.png)
 
