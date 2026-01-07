@@ -233,7 +233,7 @@ hr {
     position: relative;
     bottom: 85px;
     width: 400px;
-    height: 400px;
+    height: 350px;
     border-radius: 15px;
     border: 1px solid black;
 }
@@ -759,7 +759,7 @@ body {
 /* Responsive for tablets and phones */
 @media (max-width: 1024px) {
   .home, .about, .project, .services, .contact {
-    margin: 120px 50px;
+    margin: 120px 60px;
   }
 
   .home-container, .about-container {
@@ -786,7 +786,7 @@ body {
   }
 
   .home, .about, .project, .services, .contact {
-    margin: 100px 20px;
+    margin: 100px 30px;
   }
 
   .home-container, .about-container, .contact-content {
@@ -829,7 +829,7 @@ body {
   }
 
   .home, .about, .project, .services, .contact {
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 0 15px;
     text-align: center;
     max-width: 100%;
@@ -852,7 +852,8 @@ body {
     width: 100%;
     max-width: 220px; 
     height: auto;
-    margin-bottom: 20px;
+    margin-top: 75px;
+    /* margin-bottom: 20px; */
     position: relative;
     z-index: 1; 
   }
