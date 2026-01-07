@@ -9,7 +9,7 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 ## Live link
 
-[[funny-starlight-5b99b0.netlify.app](https://sensational-khapse-4795f2.netlify.app/)]
+[https://glittery-brioche-4443d4.netlify.app/](https://glittery-brioche-4443d4.netlify.app/)
 
 ![Preview Screenshot](Portfolio/images/portfilo.png)
 
