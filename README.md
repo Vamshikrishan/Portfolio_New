@@ -9,9 +9,9 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 ## Live link
 
-[[https://vamshikrishan.github.io/Portfolio_New/](https://vamshikrishan.github.io/Portfolio_New/)]
+[https://vamshikrishan.github.io/Portfolio_New/](https://vamshikrishan.github.io/Portfolio_New/)
 
-![Preview Screenshot](Portfolio/images/portfilo.png)
+![Preview Screenshot](./portfilo.png)
 
 ---
 
