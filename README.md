@@ -9,7 +9,7 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 ## Live link
 
-[https://glittery-brioche-4443d4.netlify.app/](https://glittery-brioche-4443d4.netlify.app/)
+[[https://vamshikrishan.github.io/Portfolio_New/](https://vamshikrishan.github.io/Portfolio_New/)]
 
 ![Preview Screenshot](Portfolio/images/portfilo.png)
 
