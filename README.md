@@ -11,7 +11,7 @@ A clean, responsive personal portfolio website to showcase projects, skills, exp
 
 [https://vamshikrishan.github.io/Portfolio_New/](https://vamshikrishan.github.io/Portfolio_New/)
 
-![Preview Screenshot](./portfilo.png)
+![Preview Screenshot](images/Preview.png)
 
 ---
 
